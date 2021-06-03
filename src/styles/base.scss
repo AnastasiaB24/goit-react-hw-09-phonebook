@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* width: 350px; */
+  /* background-color: lightgray; */
+  background-image: url('https://st2.depositphotos.com/4601361/7151/i/450/depositphotos_71515053-stock-photo-background-blurred-lines-techno-soft.jpg');
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2 {
+  color: darkolivegreen;
+  padding: 10px;
+}
+p {
+  margin: 0;
+}
+.NavLink {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+}
+.NavLink--active {
+  color: #e84a5f;
+}
+
+.login-form {
+}
+.login-label {
+  display: block;
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
